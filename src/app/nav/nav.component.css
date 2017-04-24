@@ -8,6 +8,7 @@ nav {
     border-radius: 0;
     margin-bottom: 0px;
 }
+
 button {
     border-radius: 0px;
 }
@@ -27,11 +28,11 @@ button {
 .img-slack-button {
     background-color: #016ED5;
     border: none;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 6px 24px ;
     color: #FFF;
+    border-radius: 0px;
 }
-button:hover {
+a.btn.btn-default.img-slack-button:hover {
     background-color: #1658AF;
 }
 .navbar-default .navbar-nav>li>a {
@@ -51,4 +52,8 @@ button.navbar-toggle.collapsed:hover {
 }
 .navbar-default .navbar-toggle:focus {
     background-color: #1658AF;
+}
+a {
+    padding: 0px;
+    margin: 0px;
 }
