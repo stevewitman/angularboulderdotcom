@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SlackInviteComponent } from './slack-invite.component';
+import { SlackComponent } from './slack.component';
 
 describe('SlackInviteComponent', () => {
-  let component: SlackInviteComponent;
-  let fixture: ComponentFixture<SlackInviteComponent>;
+  let component: SlackComponent;
+  let fixture: ComponentFixture<SlackComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SlackInviteComponent ]
+      declarations: [ SlackComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SlackInviteComponent);
+    fixture = TestBed.createComponent(SlackComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

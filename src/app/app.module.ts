@@ -7,14 +7,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { SplashComponent } from './splash/splash.component';
-import { SlackInviteComponent } from './slack-invite/slack-invite.component';
+import { SlackComponent } from './slack/slack.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     SplashComponent,
-    SlackInviteComponent,
+    SlackComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,
