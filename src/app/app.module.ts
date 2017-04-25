@@ -12,6 +12,7 @@ import { InviteService } from './slack/invite.service'
 import { EventsComponent } from './events/events.component';
 import { ItemFormComponent } from './items/item-form.component';
 import { ItemService } from './items/item.service';
+import { FooterComponent } from './footer/footer.component';
 
 export const firebaseConfig = {
     apiKey: "AIzaSyC0CCTog704R5N5wJN7_8I0ncOk168SY9Y",
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     SplashComponent,
     SlackComponent,
     EventsComponent,
-    ItemFormComponent
+    ItemFormComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
