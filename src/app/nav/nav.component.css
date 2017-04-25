@@ -15,7 +15,7 @@ button {
 .navbar-brand {
     padding: 0px;
     margin: 0px;
-    height: 50px;
+    max-height: 50px;
 }
 .img-banner {
     height: 50px;
