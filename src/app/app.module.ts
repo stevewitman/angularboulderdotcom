@@ -15,12 +15,12 @@ import { ItemService } from './items/item.service';
 import { FooterComponent } from './footer/footer.component';
 
 export const firebaseConfig = {
-    apiKey: "AIzaSyC0CCTog704R5N5wJN7_8I0ncOk168SY9Y",
-    authDomain: "abdc-59710.firebaseapp.com",
-    databaseURL: "https://abdc-59710.firebaseio.com",
-    projectId: "abdc-59710",
-    storageBucket: "abdc-59710.appspot.com",
-    messagingSenderId: "333731102581"
+    apiKey: "AIzaSyAWeEdfUqeWrrxxS1oU-r3Kk8XNuSAjwgQ",
+    authDomain: "angularcolorado.firebaseapp.com",
+    databaseURL: "https://angularcolorado.firebaseio.com",
+    projectId: "angularcolorado",
+    storageBucket: "angularcolorado.appspot.com",
+    messagingSenderId: "606878939230"
 };
 
 @NgModule({

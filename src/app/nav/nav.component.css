@@ -13,17 +13,22 @@ button {
     border-radius: 0px;
 }
 .navbar-brand {
-    padding: 0px;
+    padding: 1px;
     margin: 0px;
-    max-height: 50px;
 }
 .img-banner {
-    height: 50px;
+    height: 48px;
 }
 .img-slack {
     height: 38px;
     border-radius: 5px;
     margin-right: 8px;
+}
+.img-meetup {
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-top: 3px;
 }
 .img-slack-button {
     background-color: #016ED5;
